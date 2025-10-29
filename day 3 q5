@@ -2,16 +2,10 @@
 
 int main() {
     int num, square, cube;
-
-    // Input number
     printf("Enter a number: ");
     scanf("%d", &num);
-
-    // Calculate square and cube
     square = num * num;
     cube = num * num * num;
-
-    // Display results
     printf("\nSquare of %d = %d\n", num, square);
     printf("Cube of %d = %d\n", num, cube);
 
