@@ -2,18 +2,10 @@
 
 int main() {
     int N, lastDigit, exceptLast;
-
-    // Input number
     printf("Enter a number: ");
     scanf("%d", &N);
-
-    // Find last digit
     lastDigit = N % 10;
-
-    // Find all digits except last
     exceptLast = N / 10;
-
-    // Display results
     printf("\nLast digit of %d = %d\n", N, lastDigit);
     printf("All digits except last digit = %d\n", exceptLast);
 
